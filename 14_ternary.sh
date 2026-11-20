@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#Ternary Operator cond1 && cond2 || cond3
+
+read -p "what is your age?" age
+
+[[ $age -ge 18 ]] && echo "ADULT" || echo "MINOR" 
